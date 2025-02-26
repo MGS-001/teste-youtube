@@ -16,6 +16,11 @@ header{
     justify-content: space-between;
 }
 
+main{
+    width: 100vw;
+    height: 100vh;
+}
+
 #logoyoutube{
     margin: 6px;
     flex-basis:100px;
