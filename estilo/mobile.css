@@ -5,6 +5,10 @@
     padding: 0px;
     box-sizing: border-box;
 }
+body{
+    width: 100vw;
+    height: 100vh;
+}
 
 ::-webkit-scrollbar{
     width: 0px;
@@ -19,6 +23,7 @@ header{
 main{
     width: 100vw;
     height: 100vh;
+    justify-content: center;
 }
 
 #logoyoutube{
@@ -39,7 +44,8 @@ main{
 
 #botaomenu{
     display: flex;
-    align-items: center;
+    flex-flow: row wrap;
+    justify-content: center;
 }
 
 #botaomenu span{
@@ -72,9 +78,9 @@ main{
 }
 
 .video{
-    position: relative;
+    margin: 10px auto;
     padding: 25%;
-    margin: 30px -10px;
+    position: relative;
 }
 
 .video iframe{
@@ -83,12 +89,13 @@ main{
     width: 90%;
     height: 90%;
     position: absolute;
+    border-radius: 20px;
 }
 
 .descrição{
     width: 90%;
     height: 80px;
-    margin: -40px auto 10px auto;
+    margin: auto;
 }
 
 .descrição img{
