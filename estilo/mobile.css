@@ -34,7 +34,6 @@ main{
 
 #iconesyoutube{
     display: flex;
-    margin: 5px;
     align-items: center;
 }
 
@@ -134,5 +133,5 @@ footer{
 }
 
 footer p{
-    
+
 }
