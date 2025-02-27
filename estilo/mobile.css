@@ -43,12 +43,14 @@ main{
 }
 
 #botaomenu{
-    display: flex;
+    width: 510px;
+    overflow-x: scroll;
     flex-flow: row nowrap;
-    justify-content: center;
+    border: 1px solid black;
 }
 
 #botaomenu span{
+    display: block;
     margin: 5px;
     padding: 5px;
     color: white;
@@ -63,7 +65,7 @@ main{
 }
 
 #botaomenu a{
-    flex: 0 1 auto;
+    flex: 0 0 auto;
     margin: 5px;
     padding: 8px;
     color: white;

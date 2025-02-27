@@ -1,2 +1,7 @@
 @charset "UTF-8";
 
+#botaomenu{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+}
