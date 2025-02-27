@@ -5,6 +5,7 @@
     padding: 0px;
     box-sizing: border-box;
 }
+
 body{
     width: 100vw;
     height: 100vh;
@@ -31,14 +32,14 @@ main{
     flex-basis:100px;
 }
 
-#menuyoutube{
+#iconesyoutube{
     display: flex;
     margin: 5px;
     align-items: center;
 }
 
-#menuyoutube a{
-    color: rgb(0, 0, 0);
+#iconesyoutube a{
+    color: black;
     padding: 10px;
 }
 
@@ -80,7 +81,7 @@ main{
 }
 
 .video{
-    padding: 25%;
+    padding: 27%;
     position: relative;
     margin: 10px auto 0px;
 }
@@ -89,7 +90,7 @@ main{
     top: 5%;
     left: 5%;
     width: 90%;
-    height: 90%;
+    height: 87%;
     position: absolute;
     border-radius: 20px;
 }
@@ -125,4 +126,13 @@ main{
 .texto{
     flex-basis: 300px;
     align-self: center;
+}
+
+footer{
+    height: 80px;
+    background-color: gray;
+}
+
+footer p{
+    
 }
