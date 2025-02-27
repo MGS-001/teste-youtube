@@ -43,7 +43,7 @@ main{
 }
 
 #botaomenu{
-    width: 510px;
+    width: 500px;
     overflow-x: scroll;
     flex-flow: row nowrap;
     border: 1px solid black;
