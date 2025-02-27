@@ -126,12 +126,3 @@ main{
     flex-basis: 300px;
     align-self: center;
 }
-
-footer{
-    height: 80px;
-    background-color: gray;
-}
-
-footer p{
-
-}
