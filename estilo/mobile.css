@@ -44,7 +44,7 @@ main{
 
 #botaomenu{
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: row nowrap;
     justify-content: center;
 }
 
@@ -63,9 +63,11 @@ main{
 }
 
 #botaomenu a{
+    flex: 0 1 auto;
     margin: 5px;
     padding: 8px;
     color: white;
+    text-align: center;
     border-radius: 7px;
     text-decoration: none;
     background-color: rgb(0, 0, 0);
@@ -78,9 +80,9 @@ main{
 }
 
 .video{
-    margin: 10px auto;
     padding: 25%;
     position: relative;
+    margin: 10px auto 0px;
 }
 
 .video iframe{
@@ -93,31 +95,34 @@ main{
 }
 
 .descrição{
-    width: 90%;
     height: 80px;
-    margin: auto;
+    display: flex;
+    margin: -15px 30px;
 }
 
 .descrição img{
     top: 10px;
     width: 50px;
     height: 50px;
+    margin: 5px;
     display: block;
     position: relative;
     border-radius: 30px;
 }
 
 .descrição h3{
-    top: -40px;
-    left: 70px;
-    position: relative;
-    flex-basis: 2000px;
+    font-family:Arial, Helvetica, sans-serif;
+    flex-basis: 300px;
+    align-self: flex-start;
 }
 
-.descrição p{
-    left: 70px;
-    top: -35px;
+.descrição  p{
+    flex: auto;
     display: flex;
-    width: 140px;
-    position: relative;
+    flex-basis: 400px;
+}
+
+.texto{
+    flex-basis: 300px;
+    align-self: center;
 }
