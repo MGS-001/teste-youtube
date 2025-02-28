@@ -4,6 +4,7 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 body{
@@ -98,7 +99,6 @@ main{
 }
 
 .descrição h3{
-    font-family:Arial, Helvetica, sans-serif;
     flex-basis: 300px;
     align-self: flex-start;
 }
