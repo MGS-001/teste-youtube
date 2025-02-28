@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barra de Opções com Rolagem</title>
+    <style>
+        ::-webkit-scrollbar{
+            width: 0px;
+            height: 0px;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .barra-opcoes {
+            display: flex;
+            overflow-x: auto;
+            padding: 10px 0;
+            white-space: nowrap;
+            background-color: #f3f3f3;
+        }
+
+        .barra-opcoes div {
+            flex: 0 0 auto;
+            padding: 10px 20px;
+            margin: 5px;
+            background-color: #007BFF;
+            color: white;
+            border-radius: 5px;
+            text-align: center;
+            cursor: pointer;
+        }
+
+        .barra-opcoes div:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="barra-opcoes">
+        <div>Opção 1</div>
+        <div>Opção 2</div>
+        <div>Opção 3</div>
+        <div>Opção 4</div>
+        <div>Opção 5</div>
+        <div>Opção 6</div>
+        <div>Opção 7</div>
+    </div>
+</body>
+</html>
