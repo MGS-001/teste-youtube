@@ -19,7 +19,6 @@ body{
 
 header{
     display: flex;
-    justify-content: space-between;
 }
 
 #menuham, #iconeslateral{
@@ -51,12 +50,19 @@ main{
 
 #iconesyoutube{
     display: flex;
-    align-items: center;
+    justify-content: space-between;
 }
 
 #iconesyoutube a{
     color: black;
     padding: 10px;
+}
+
+#icones{
+    width: 81vw;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
 }
 
 #botaomenu{
