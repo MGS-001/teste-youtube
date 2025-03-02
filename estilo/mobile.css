@@ -22,6 +22,10 @@ header{
     justify-content: space-between;
 }
 
+#menuham, #iconeslateral{
+    display: none;
+}
+
 main{
     width: 100vw;
     height: 100vh;
@@ -31,6 +35,18 @@ main{
 #logoyoutube{
     margin: 6px;
     flex-basis:100px;
+}
+
+#mic{
+    display: none;
+}
+
+#inscrição{
+    display: none;
+}
+
+#usuario{
+    display: none;
 }
 
 #iconesyoutube{

@@ -1,0 +1,79 @@
+@charset "UTF-8";
+
+header{
+    height: 56px;
+}
+
+#menuham{
+    display: block;
+    padding: 8px;
+    font-size: 1.7em;
+    align-self: center;
+}
+
+#mic{
+    display: block;
+}
+
+#inscrição{
+    display: flex;
+    padding: 7px;
+    flex-basis: 100px;
+    align-items: center;
+    border-radius: 20px;
+    justify-content: center;
+    background-color: rgba(223, 223, 223, 0.301);
+}
+
+#inscrição:hover{
+    background-color: rgba(223, 223, 223, 0.586);
+}
+
+#usuario{
+    display: block;
+}
+
+#trasmitir{
+    display: none;
+}
+
+#iconesyoutube{
+    display: flex;
+    width: 100vw;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+}
+/*
+aside{
+    top: 1px;
+    display: flex;
+    width: 246px;
+    height: 100vh;
+    flex-flow: column;
+    position: absolute;
+    background-color: rgb(249, 249, 249);
+}
+
+aside img{
+    display: flex;
+    height: 24px;
+    width: 24px;
+}
+
+#logolateral{
+    margin: 5px;
+    height: 40px;
+    width: 80px;
+}
+
+#menulateral{
+    display: flex;
+    justify-content: center;
+}
+
+#hamburguerlateral{
+    display: flex;
+    font-size: 2em;
+    align-self: center;
+}*/
