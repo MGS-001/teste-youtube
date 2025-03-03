@@ -17,6 +17,10 @@ body{
     height: 0px;
 }
 
+#pesquisa{
+    display: none;
+}
+
 #menuham{
     display: none;
 }

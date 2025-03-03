@@ -1,0 +1,63 @@
+@charset "UTF-8";
+
+#lupa{
+    display: none;
+}
+
+#barraicones{
+    display: flex;
+}
+
+#pesquisa{
+  display: flex;
+  padding: 0px 40px;
+  flex: 0 2 600px;
+  align-items: center;
+  justify-content: center;
+}
+
+#pesquisa input{
+    flex: 1;
+    cursor: text;
+    display: flex;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid rgb(162, 160, 160);
+    border-radius: 20px 0px 0px 20px;
+    font-family: "Roboto", "Arial", sans-serif;
+}
+
+#pesquisa span{
+    display: flex;
+}
+
+#lupapesquisa{
+    display: flex;
+    width: 64px;
+    height: 38px;
+    align-items: center;
+    justify-content: center;
+    background-color: #dddbdb;
+    border-radius: 0px 20px 20px 0px;
+    border: 1px solid rgb(162, 160, 160);
+}
+
+#lupapesquisa:hover{
+    background-color: #c1bebe;
+}
+
+#botaomenu{
+    justify-content: center;
+    display: flex;
+    overflow-x: auto;
+    padding: 10px 0;
+    white-space: nowrap;
+}
+
+.video{
+    width: 70px;
+    height: 30px;
+    padding: 27%;
+    position: relative;
+    margin: 10px auto 0px;
+}
