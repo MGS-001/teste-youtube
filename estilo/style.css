@@ -1,14 +1,37 @@
 @charset "UTF-8";
 
-header{
-    height: 56px;
+#menuham{
+    display: flex;
+    padding: 5px;
+    font-size: 2em;
+    font-weight: 100;
 }
 
-#menuham{
-    display: block;
-    padding: 8px;
-    font-size: 1.7em;
-    align-self: center;
+#logohamburguer{
+    display: flex;
+    align-items: center;
+}
+
+#logoyoutube{
+    display: flex;
+    justify-content: flex-start;
+}
+
+#barraicones{
+    display: flex;
+    width: 100vw;
+    align-items: center;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+
+#icones{
+    display: flex;
+    align-items: center;
+}
+
+#icones a{
+    color: black;
 }
 
 #mic{
@@ -37,13 +60,6 @@ header{
     display: none;
 }
 
-#iconesyoutube{
-    display: flex;
-    width: 100vw;
-    align-items: center;
-    flex-direction: row;
-    justify-content: space-between;
-}
 /*
 aside{
     top: 1px;
